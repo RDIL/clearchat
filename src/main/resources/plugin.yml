@@ -1,0 +1,7 @@
+name: ClearChat
+version: ${project.version}
+main: rocks.rdil.clearchat.ClearChat
+api-version: 1.14
+description: Simply clears the chat.
+commands:
+  clearchat:
