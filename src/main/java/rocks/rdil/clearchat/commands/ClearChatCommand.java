@@ -9,11 +9,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class ClearChatCommand implements CommandExecutor {
-    private ClearChat plugin;
     private String message;
 
     public ClearChatCommand(ClearChat plugin) {
-        this.plugin = plugin;
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < 99; i++) {
             str.append("\n");

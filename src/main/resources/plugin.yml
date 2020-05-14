@@ -2,6 +2,10 @@ name: ClearChat
 version: ${project.version}
 main: rocks.rdil.clearchat.ClearChat
 api-version: 1.14
-description: Simply clears the chat.
+description: Quickly and easily clear the chat.
+website: https://github.com/RDIL/clearchat
+author: Reece Dunham <me@rdil.rocks>
 commands:
   clearchat:
+    description: Clear the chat of all players.
+    usage: "Usage: /clearchat"
